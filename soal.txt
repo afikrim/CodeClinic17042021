@@ -1,0 +1,27 @@
+Shinta merupakan seorang programmer fresh graduate dari FILKOM UB. Sebelum lulus, dia telah mengerjakan beberapa proyek sehingga namanya cukup terkenal. Kali ini, dia diminta temannya untuk membuat sistem perpustakaan yang akan dipakai untuk perpustakaan yang baru di daerahnya. Ada beberapa kebutuhan sistem yang temannya butuh, yaitu:
+1. Terdapat beberapa entitas yang ingin dimasukkan di dalam sistem, yaitu Buku, Pengunjung, dan Pekerja.
+2. Buku memiliki beberapa data yaitu judul, stok, penulis, dan genre
+3. Pengunjung memiliki data nama, tanggal datang(last visit), buku yang dipinjam
+4. Pekerja memiliki data nama, dan jabatan.
+5. Pengunjung hanya bisa melihat stok buku sedangkan pekerja bisa menambah stok bukunya
+6. Pengunjung harus bisa meminjam lebih dari satu buku.
+7. Pekerja harus bisa melihat total pengunjung yang datang, termasuk yang tidak meminjam buku.
+
+Nah, buatlah sistem sesuai deskripsi di atas dengan outputnya adalah total pengunjung dan semua pengunjung yang meminjam buku dan data bukunya. Jangan lupa jika stok buku habis, maka pengunjung tidak dapat meminjam buku tersebut.
+
+Output:
+Total pengunjung:
+Yang meminjam buku
+Pengunjung 1:
+-Nama: Shinta
+-Tanggal: 16 April 2021
+-Buku yang dipinjam:
+--Buku 1:
+---Judul: Belajar Python
+---Penulis: Rossum
+---Genre: Pemrograman
+--Buku 2:
+---Judul: Tips & Trick UTBK
+---Penulis: Zenius
+---Genre: Pendidikan
+dst.
